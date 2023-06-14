@@ -9,6 +9,7 @@
 - start postgres with `sudo servcie postgres start` | `sudo pg_ctlcluster 14 main start` | `brew services start postgres@15`
 - create user with `sudo -u postgres createuser --superuser $(whoami)`
 - create database with `createdb odoo-test`
+- delete database with `deletedb odoo-test`
 
 ### c. install needed service
 - debugpy with `pip install debugpy`
@@ -31,6 +32,10 @@
 
 ### Without debugpy
 `python odoo/odoo-bin -w odoo -r odoo16 --database postgres -i base --db_host localhost --config=conf/odoo.conf --limit-time-real=600`
+
+## 2.1 Start Odoo in vscode
+- use `.json` file in `.vscode` folder
+- run with run/debugger button
 
 # Reference
 https://www.odoo.com/documentation/16.0/developer/reference/cli.html
