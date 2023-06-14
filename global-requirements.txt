@@ -1,0 +1,13 @@
+1. Problem
+
+- psycopg2
+sudo apt-get install libpq-dev python3-dev
+
+- python-ldap
+sudo apt-get install python3-dev libxml2-dev libxslt1-dev zlib1g-dev libsasl2-dev libldap2-dev build-essential libssl-dev libffi-dev libmysqlclient-dev libjpeg-dev libpq-dev libjpeg8-dev liblcms2-dev libblas-dev libatlas-base-dev
+
+2. setup postgres
+
+sudo -u postgres createuser --superuser $(whoami)
+createdb odoo-test
+psql -U root -d postgres

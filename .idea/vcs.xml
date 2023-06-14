@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/addons/odooapps" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/addons/server-auth" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/addons/subscription_management" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/addons/website_subscription_management" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/addons/weevy_oauth" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/addons/weevy_payment_midtrans" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/addons/weevy_stripe_subscription_payment" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/addons/weevy_tenant_default_configuration" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/addons/weevy_tenant_registration" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/addons/weevy_theme_portal" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/odoo" vcs="Git" />
+  </component>
+</project>

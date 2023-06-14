@@ -1,0 +1,30 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Odoo",
+      "type": "python",
+      "request": "launch",
+      "stopOnEntry": false,
+      "console": "integratedTerminal",
+      "python": "/home/efraimwijaya/.pyenv/versions/3.11.4/bin/python",
+      "program": "/home/efraimwijaya/Developer/Crubiks/weevy-16.0/odoo/odoo-bin",
+      "justMyCode": true,
+      "args": [
+        "--database=postgres",
+        // "--init=base", // fresh database
+        // "--db_user=odoo16",
+        // "--db_password=odoo",
+        // "--db_host=localhost",
+        // "--db_port=5432",
+        "--config=/home/efraimwijaya/Developer/Crubiks/weevy-16.0/conf/odoo.conf",
+        // "--update=auth_oidc", // use all for update module
+        // "--addons-path=/home/efraimwijaya/Developer/Crubiks/weevy-16.0/addons", // can add in odoo.conf 
+        "--limit-time-real=600",
+      ]
+    }
+  ]
+}

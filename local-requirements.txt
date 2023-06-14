@@ -1,0 +1,4 @@
+python-jose
+pyjwt
+python-dotenv
+pandas
