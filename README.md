@@ -10,6 +10,7 @@
 - create user with `sudo -u postgres createuser --superuser $(whoami)`
 - create database with `createdb odoo-test`
 - delete database with `deletedb odoo-test`
+- alter create user `alter user <user> with createdb`
 
 ### c. install needed service
 - debugpy with `pip install debugpy`
