@@ -13,6 +13,7 @@
 
 ### c. install needed service
 - debugpy with `pip install debugpy`
+- python environment with `pyenv` look reference 2
 
 
 ## 2. Odoo
@@ -38,4 +39,5 @@
 - run with run/debugger button
 
 # Reference
-https://www.odoo.com/documentation/16.0/developer/reference/cli.html
+1. https://www.odoo.com/documentation/16.0/developer/reference/cli.html
+2. https://realpython.com/intro-to-pyenv/
