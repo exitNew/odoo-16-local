@@ -8,9 +8,14 @@
 ### b. setup postgres
 - start postgres with `sudo servcie postgres start` | `sudo pg_ctlcluster 14 main start` | `brew services start postgres@15`
 - create user with `sudo -u postgres createuser --superuser $(whoami)`
-- create database with `createdb odoo-test`
-- delete database with `deletedb odoo-test`
-- alter create user `alter user <user> with createdb`
+- create password with
+    - `su postgres`
+    - `psql`
+    - `alter user postgres with createdb`
+    - look user `\l`, look database `\du`, quit `\q` 
+- create database with `$ createdb odoo-test`
+- delete database with `$ deletedb odoo-test`
+- alter create user inside psql `alter user <user> with createdb`
 
 ### c. install needed service
 - debugpy with `pip install debugpy`
