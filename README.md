@@ -11,7 +11,7 @@
 - create password with
     - `su postgres`
     - `psql`
-    - `alter user postgres with createdb`
+    - `ALTER USER user_name WITH PASSWORD 'new_password';`
     - look user `\l`, look database `\du`, quit `\q` 
 - create database with `$ createdb odoo-test`
 - delete database with `$ deletedb odoo-test`
