@@ -40,6 +40,9 @@
 ### Without debugpy
 `python odoo/odoo-bin -w odoo -r odoo16 --database postgres -i base --db_host localhost --config=conf/odoo.conf --limit-time-real=600`
 
+### basic
+`python odoo/odoo-bin --config=conf/odoo.conf --limit-time-real=600 --addons-path="addons"`
+
 ## 2.1 Start Odoo in vscode
 - use `.json` file in `.vscode` folder
 - run with run/debugger button
